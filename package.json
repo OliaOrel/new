@@ -1,0 +1,26 @@
+{
+  "name": "pro",
+  "version": "1.0.0",
+  "description": "HTTP proxy",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo 'SUCCESS'",
+    "deploy": "now --token $AUTH alias $(echo $(now --token $AUTH deploy)) httpproxy-$TRAVIS_BRANCH.now.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliaOrel/new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliaOrel/new/issues"
+  },
+  "homepage": "https://github.com/OliaOrel/new#readme",
+  "dependencies": {
+    "eslint": "^5.11.0",
+    "now": "^14.2.0",
+    "nvm": "0.0.4"
+  }
+}
