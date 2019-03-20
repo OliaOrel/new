@@ -3,7 +3,7 @@ node_js:
 - "9.2.0"
 
 before_script:
-- npm ci
+- npm i
 - npm run lint
 - npm test
 
