@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "echo 'SUCCESS'",
-    "deploy": "now --token $AUTH alias $(echo $(now --token $AUTH deploy)) httpproxy-$TRAVIS_BRANCH.now.sh"
+    "deploy": "now --token $AUTH alias $(echo $(now --token $AUTH deploy)) mypro-$TRAVIS_BRANCH.now.sh"
   },
   "repository": {
     "type": "git",
