@@ -20,6 +20,7 @@
   "homepage": "https://github.com/OliaOrel/new#readme",
   "dependencies": {
     "eslint": "^5.11.0",
+    "node-telegram-bot-api": "^0.30.0",
     "now": "^14.2.0",
     "nvm": "0.0.4"
   },
